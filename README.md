@@ -1,5 +1,18 @@
 # HTMLTestRunner 测试文档生成脚本（标准版/纯文字）
 
+使用方式（例子）：
+```python
+ HTMLTestRunner(
+        stream=f,
+        title="单元测试",
+        description="测试一期",
+        verbosity=2
+    ).run(suite) 
+```
+ 
+
+
+
 只修改到能正常使用，生成的html是纯文字。
 
 纯文字版效果图：
